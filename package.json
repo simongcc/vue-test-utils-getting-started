@@ -4,12 +4,14 @@
   "author": "Evan You",
   "scripts": {
     "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "vue-cli-service test:e2e",
     "test": "jest"
   },
   "dependencies": {
     "vue": "^2.4.4"
   },
   "devDependencies": {
+    "@vue/cli-plugin-e2e-cypress": "~4.4.0",
     "@vue/cli-plugin-unit-jest": "^4.4.1",
     "@vue/test-utils": "^1.0.3",
     "babel-jest": "^26.0.1",
